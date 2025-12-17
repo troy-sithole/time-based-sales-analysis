@@ -2,12 +2,8 @@
 
 ## Overview
 
-<<<<<<< HEAD
-This project explores how **time-related factors influence retail sales performance**. Using historical transaction data, the analysis focuses on identifying **seasonal patterns** and **weekday vs weekend behavior** that can support better business decision-making.
-=======
 This project explores how **time-related factors influence retail sale
 s performance**. Using historical transaction data, the analysis focuses on identifying **seasonal patterns** and **weekday vs weekend behavior** that can support better business decision-making.
->>>>>>> 88356f8b9e98969f34c911554e10c492cf8a86b7
 
 The goal is not forecasting or modeling, but clear, descriptive analysis that translates time-based data into **actionable business insights**.
 
@@ -99,7 +95,9 @@ Average sales differ meaningfully between weekdays and weekends, suggesting oppo
 
 ## Program Structure
 
-```time-based-sales-analysis/
+```
+
+time-based-sales-analysis/
 ├── data/
 │   └── retail_sales.csv
 ├── notebook/
@@ -108,6 +106,8 @@ Average sales differ meaningfully between weekdays and weekends, suggesting oppo
 ├── README.md
 
 ```
+
+---
 
 * `data/` contains the raw dataset used for analysis
 * `time_based_sales_analysis.ipynb` includes all data cleaning, analysis, and visualizations
